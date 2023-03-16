@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+     display: flex;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     background: linear-gradient(135deg, #01003f, #000000);
+
+ }
+
+ .container {
+     max-width: 700px;
+     width: 100%;
+     background: #FFF;
+     padding: 25px 35px;
+     border-radius: 15px;
+ }
+
+ .container .title {
+     font-size: 30px;
+     font-weight: bolder;
+ }
+
+ .container .title::before {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     height: 3px;
+     width: 30px;
+     background: linear-gradient(135deg, #71b7e6, #9559b6);
+ }
+
+ .container form .user-details {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     border-radius: 10px;
+     margin: 20px 0 10px 0;
+ }
+
+ form .user-details .input-box {
+     margin: 12px 0 10px 0;
+     width: calc(100% / 2 - 20px);
+     font-size: 17px;
+
+ }
+
+ .user-details .input-box .details {
+     display: block;
+     font-weight: 510;
+     margin-bottom: 4px;
+ }
+
+ .user-details .input-box input {
+     height: 45px;
+     width: 100%;
+     outline: none;
+     border-radius: 10px;
+     border: 1px solid #ccc;
+     padding-left: 15px;
+     font-size: 15px;
+ }
+
+ .user-details .input-box input:focus,
+ .user-details .input-box input:valid {
+     border-color: #9b59b6;
+ }
+
+ form .gender-details .gender-title {
+     font-size: 20px;
+     font-weight: 100;
+ }
+
+ form .gender-details .category {
+     display: flex;
+     width: 100%;
+     margin: 14px 0;
+     justify-content: space-between;
+ }
+
+ .gender-details .category label {
+     display: flex;
+
+ }
+
+ .gender-details .category .dot {
+     height: 18px;
+     width: 18px;
+     background: red;
+ }
+
+ form .button {
+     height: 45px;
+     margin: 45px;
+
+ }
+
+ form .button input {
+     height: 100%;
+     width: 100%;
+     outline: none;
+     color: #fff;
+     border: none;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     border-radius: 5px;
+     background: #001d46;
+
+ }
+
+ form .button input:hover {
+     background: grey;
+ }
+
+ .container .user-details .don-cause {
+     height: auto;
+     font-size: 18px;
+     display: block;
+     color: rgb(0, 0, 0);
+     border-radius: 10px;
+     margin: auto;
+     justify-content: center;
+ }
+
+ .container .user-details .don-cause select {
+     /* padding-top: 10px; */
+     display: flex;
+ }
+
+ .container .user-details .don-resources {
+     color: aqua;
+ }

@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landing-content {
+    /* height: 100vh; */
+    width: 100%;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+    margin-top: 10px;
+}
+
+.nav-links {
+    padding: 28px 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 0;
+    position: relative;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+
+.nav-links li a::after {
+    content: '';
+    background: #eb5e28;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.8s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+#login {
+    color: white;
+}
+
+div {
+    padding: 2rem;
+    align-items: center;
+}
+.ig {
+    width: absolute;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 2.5rem;
+    align-content: flex-start;
+}
+
+p {
+    margin: 1rem;
+}
+h1 {
+    margin-left: 3.625rem;
+    padding-top: 20px;
+}
+.first{
+    border-width: 1rem;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 90%;
+    margin-right: 0;
+    margin-left: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    line-height: 20px;
+    align-items: center;
+    padding-left: 0;
+}
+div{
+    align-items: center;
+}
+.secondinner{
+    padding-top: 20px;
+    padding-left: 3.5rem;
+    padding-right: 0;
+}
+.secondinner iframe{
+    height: 10rem;
+    width: 15rem;
+}
+.logo {
+    height: 100px;
+    width: 120px;
+    margin: 0px;
+}
+.back button{
+    background-color: #eb5e28;
+    color: white;
+    height: 3rem;
+    width: 8rem;
+    font-style: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    letter-spacing: 2px;
+
+}
+
+.back button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #eb5e28;
+}
+.back{
+    text-align: center;
+}
+section{
+    margin-bottom: 20px;
+}
+.button button {
+    align-content: center;
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 200px;
+    font-style: bold;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    letter-spacing: 2px;
+}
+
+.button button:hover {
+    transition-property: ease-in;
+    transition-delay: 0.5s;
+    background-color: #eb5e28;
+    color: white;
+    border: none;
+}
+
+.alignment p {
+    width: auto;
+    margin: 1rem;
+}
+
+#help-message {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f4f4f4;
+    margin-top: 1rem;
+}
+
+/* footer a {
+    text-transform: uppercase;
+    color: #2f3e46;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
+    font-size: 0.9rem;
+    letter-spacing: 0.3rem;
+    line-height: 2;
+} */
+
+/* a:hover {
+    color: #eb5e28;
+} */
+
+.social-icons a {
+    margin: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-icons,
+.rights-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+}
+
+.social-icons img {
+    margin: 0 3rem;
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+}
+
+.social-icons img:hover {
+    cursor: pointer;
+}
+
+.rights-details {
+    padding: 20px;
+}
+
+.myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    outline: none;
+    background-color: #eb5e28;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+.myBtn:hover {
+    background-color: #555;
+}
+i{
+    padding-left: 15px;
+    padding-right: 15px;
+}
